@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuquilandaVictorLayoutProject", "SuquilandaVictorLayoutProject\SuquilandaVictorLayoutProject.csproj", "{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2302B5C-37B1-4060-8D17-30BF48DCFB0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8F0630F-2824-4346-A325-55B9C4E3233B}
+	EndGlobalSection
+EndGlobal
