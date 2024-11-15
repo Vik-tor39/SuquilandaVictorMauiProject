@@ -12,17 +12,54 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label Text="Column 0, Row 0"
-           WidthRequest="200" />
+        <Label Text="Soy el grid 0x0"
+           BackgroundColor="LightBlue"
+           TextColor="White"    
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand" 
+           FontSize="20"
+           FontFamily="Arial"  
+           HorizontalTextAlignment="Center"  
+           VerticalTextAlignment="Center"    />
         <Label Grid.Column="1"
-           Text="Column 1, Row 0" />
+           BackgroundColor="LightGreen"
+           TextColor="Black"    
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+           Text="Soy el grid 0x1" 
+           FontSize="24"
+           FontFamily="Helvetica"  
+           HorizontalTextAlignment="Center"  
+           VerticalTextAlignment="Center"    />
         <Label Grid.Row="1"
-           Text="Column 0, Row 1" />
+           BackgroundColor="LightCoral"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"    
+           TextColor="Gray"    
+           Text="Soy el grid 1x0" 
+           FontSize="29"
+           FontFamily="Courier New"  
+           HorizontalTextAlignment="Center"  
+           VerticalTextAlignment="Center"    />
+        <Label Grid.Row="1"
+           BackgroundColor="LightCoral"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"    
+           TextColor="Gray"    
+           Text="Soy el grid 1x0" 
+           FontSize="29"
+           FontFamily="Courier New"  
+           HorizontalTextAlignment="Center"  
+           VerticalTextAlignment="Center"    />
+        
         <Button Grid.Column="1"
                 Grid.Row="1"
            x:Name="Boton1"
            Text="Ir"
-           Clicked="NuevaPagina_Clicked"/>
+           Clicked="NuevaPagina_Clicked"
+           WidthRequest="100"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
     </Grid>
 
 </ContentPage>

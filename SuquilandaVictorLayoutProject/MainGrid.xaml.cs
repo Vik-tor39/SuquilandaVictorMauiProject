@@ -25,7 +25,7 @@
 
         private void NuevaPagina_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainGrid());
+            Navigation.PushAsync(new MainFlex());
         }
     }
 
