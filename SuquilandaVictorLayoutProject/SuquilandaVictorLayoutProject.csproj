@@ -63,7 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="MainFlex.xaml.cs">
+	  <Compile Update="MainStack.xaml.cs">
 	    <DependentUpon>MainFlex.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="MainGrid.xaml.cs">
@@ -72,7 +72,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="MainFlex.xaml">
+	  <MauiXaml Update="MainStack.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

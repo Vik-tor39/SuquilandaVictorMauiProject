@@ -12,6 +12,7 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        
         <Label Text="Soy el grid 0x0"
            BackgroundColor="LightBlue"
            TextColor="White"    
@@ -21,6 +22,7 @@
            FontFamily="Arial"  
            HorizontalTextAlignment="Center"  
            VerticalTextAlignment="Center"    />
+        
         <Label Grid.Column="1"
            BackgroundColor="LightGreen"
            TextColor="Black"    
@@ -31,16 +33,7 @@
            FontFamily="Helvetica"  
            HorizontalTextAlignment="Center"  
            VerticalTextAlignment="Center"    />
-        <Label Grid.Row="1"
-           BackgroundColor="LightCoral"
-           HorizontalOptions="FillAndExpand"
-           VerticalOptions="FillAndExpand"    
-           TextColor="Gray"    
-           Text="Soy el grid 1x0" 
-           FontSize="29"
-           FontFamily="Courier New"  
-           HorizontalTextAlignment="Center"  
-           VerticalTextAlignment="Center"    />
+        
         <Label Grid.Row="1"
            BackgroundColor="LightCoral"
            HorizontalOptions="FillAndExpand"
@@ -52,6 +45,30 @@
            HorizontalTextAlignment="Center"  
            VerticalTextAlignment="Center"    />
         
+        <Label Grid.Row="1"
+           BackgroundColor="LightCoral"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"    
+           TextColor="Gray"    
+           Text="Soy el grid 1x0" 
+           FontSize="29"
+           FontFamily="Courier New"  
+           HorizontalTextAlignment="Center"  
+           VerticalTextAlignment="Center"    />
+
+        <Grid Grid.Column="1"
+              Grid.Row="1"
+              Background="LightGray">
+            <Button 
+               x:Name="Boton1"
+               Text="Ir"
+               Clicked="NuevaPagina_Clicked"
+               WidthRequest="100"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        </Grid>
+
+        <!--
         <Button Grid.Column="1"
                 Grid.Row="1"
            x:Name="Boton1"
@@ -60,6 +77,7 @@
            WidthRequest="100"
            HorizontalOptions="Center"
            VerticalOptions="Center"/>
+        -->
     </Grid>
 
 </ContentPage>

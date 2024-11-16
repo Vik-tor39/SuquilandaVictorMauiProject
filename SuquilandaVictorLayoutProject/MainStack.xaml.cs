@@ -1,8 +1,8 @@
 namespace SuquilandaVictorLayoutProject;
 
-public partial class MainFlex : ContentPage
+public partial class MainStack : ContentPage
 {
-	public MainFlex()
+	public MainStack()
 	{
 		InitializeComponent();
 	}
