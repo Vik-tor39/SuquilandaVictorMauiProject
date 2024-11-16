@@ -61,7 +61,7 @@
               Background="LightGray">
             <Button 
                x:Name="Boton1"
-               Text="Ir"
+               Text="Next Page"
                Clicked="NuevaPagina_Clicked"
                WidthRequest="100"
                HorizontalOptions="Center"

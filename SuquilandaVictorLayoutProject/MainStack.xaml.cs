@@ -8,6 +8,6 @@ public partial class MainStack : ContentPage
 	}
 	private void Boton2_Clicked(object sender , EventArgs e)
 	{
-		Navigation.PopAsync();
+		Navigation.PushAsync(new MainFlex());
 	}
 }
