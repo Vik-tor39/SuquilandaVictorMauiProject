@@ -68,16 +68,6 @@
                VerticalOptions="Center"/>
         </Grid>
 
-        <!--
-        <Button Grid.Column="1"
-                Grid.Row="1"
-           x:Name="Boton1"
-           Text="Ir"
-           Clicked="NuevaPagina_Clicked"
-           WidthRequest="100"
-           HorizontalOptions="Center"
-           VerticalOptions="Center"/>
-        -->
     </Grid>
 
 </ContentPage>

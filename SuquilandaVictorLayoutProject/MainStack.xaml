@@ -3,38 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuquilandaVictorLayoutProject.MainStack"
              Title="Stack View">
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand"
+        Spacing="6">
         <Label 
+            Padding="45"
             Text="Víctor Andrés"
             VerticalOptions="FillAndExpand" 
             HorizontalOptions="FillAndExpand" 
-            FontSize="20"
-            FontFamily="Arial"  
+            FontSize="35"
+            FontFamily="Arial"
+            FontAttributes="Bold"
             HorizontalTextAlignment="Center"  
             VerticalTextAlignment="Center" 
             BackgroundColor="LightBlue"  />
 
-        <Label 
+        <Label
+            Padding="45"
             Text="Suquilanda"
             VerticalOptions="FillAndExpand" 
             HorizontalOptions="FillAndExpand" 
             FontSize="24"
-            FontFamily="Helvetica"  
+            TextColor="DarkOrange"
+            FontFamily="Times New Roman"  
             HorizontalTextAlignment="Center"  
             VerticalTextAlignment="Center"
             BackgroundColor="LightGreen"  />
 
         <Label 
+            Padding="45"
             Text="Cartuche"
+            TextColor="Cornsilk"
             VerticalOptions="FillAndExpand" 
             HorizontalOptions="FillAndExpand" 
-            FontSize="29"
-            FontFamily="Courier New"  
+            FontSize="30"
+            FontFamily="Courier New"
+            FontAttributes="Italic"
             HorizontalTextAlignment="Center"  
             VerticalTextAlignment="Center" 
             BackgroundColor="LightCoral"  />
 
-        <Grid Background="LightGray">
+        <Grid Background="LightGray"
+              Padding="30">
             <Button 
                 x:Name="Boton2"
                 Text="Next Page"
@@ -43,14 +54,7 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
         </Grid>
-        
-        <!--
-        <Button
-            x:Name="Boton2"
-            Text="Volver"
-            Clicked="Boton2_Clicked"/>
-        -->    
-            
+    
     </VerticalStackLayout>
 
     

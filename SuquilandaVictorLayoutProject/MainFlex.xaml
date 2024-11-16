@@ -2,11 +2,67 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuquilandaVictorLayoutProject.MainFlex"
-             Title="MainFlex">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Flex View">
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+        <FlexLayout FlexLayout.Grow="1">
+            <ImageButton
+                Source="https://i.scdn.co/image/ab67616d0000b27333e2da60b8d83a089e982359"
+                FlexLayout.Grow="1"
+                Clicked="NuevaPagina_Clicked"
+                Background="WhiteSmoke"/>
+                
+            <Label
+                Text="Víctor Andrés"
+                TextColor="Black"
+                FontSize="10"
+                FontFamily="Arial"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"  
+                VerticalTextAlignment="Center" 
+                BackgroundColor="GhostWhite"
+                FlexLayout.Grow="1"/>
+        </FlexLayout>
+
+
+        <FlexLayout FlexLayout.Grow="1">
+            <ImageButton
+                Source="https://mrwallpaper.com/images/high/minimalist-barcelona-fc-logo-7s0p44hpifik7a2r.jpg"
+                FlexLayout.Grow="1"
+                Clicked="NuevaPagina_Clicked"
+                BackgroundColor="BlueViolet"/>
+
+            <Label
+                Text="Suquilanda"
+                TextColor="Black"
+                FontSize="10"
+                FontFamily="Arial"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"  
+                VerticalTextAlignment="Center"
+                BackgroundColor="DarkViolet"
+                FlexLayout.Grow="1" />
+        </FlexLayout>
+
+        <FlexLayout FlexLayout.Grow="1">
+            <ImageButton
+                Source="https://i.pinimg.com/736x/e4/2e/c8/e42ec82b7603bf26e4baf69da4c0e6b9.jpg"
+                FlexLayout.Grow="1"
+                Clicked="NuevaPagina_Clicked"
+                BackgroundColor="SlateGray"/>
+
+            <Label
+                Text="Cartuche"
+                TextColor="Black"
+                FontSize="10"
+                FontFamily="Arial"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"  
+                VerticalTextAlignment="Center"
+                BackgroundColor="DarkGray"
+                FlexLayout.Grow="1" />
+        </FlexLayout>
+
+    </FlexLayout>
 </ContentPage>
