@@ -6,4 +6,8 @@ public partial class MainAbsLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void NuevaPagina_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainGrid());
+    }
 }
