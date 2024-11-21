@@ -4,29 +4,43 @@
              x:Class="SuquilandaVictorLayoutProject.MainAbsLayout"
              Title="AbsLayout View">
     <AbsoluteLayout>
-        <Grid
-            AbsoluteLayout.LayoutBounds="0,0, -1, -1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+        <ScrollView x:Name="scrollView"
+                    AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout
+                Padding="20">
+                <Label Text="NO HAY NADA NUEVO BAJO EL SOL (LOS BUNKERS)" 
+                       Padding="15"
+                       FontSize="17"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"/>
+                <Label Text="Minutos antes de que den las tres &#x0a;Igual que ayer y antes de ayer &#x0a;Sigo mirando al techo una y otra vez &#x0a;Como si no tuviera nada más que hacer" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+                <Label Text="Yo nunca me sentí tan tonto &#x0a;Al menos nunca como tú &#x0a;No quiero levantar sospechas sobre mí &#x0a;Espero que no tengas nada que decir" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+                <Label Text="Lo intento todo para ser &#x0a;Mejor de lo que fui, de lo que fui hasta ayer &#x0a;No hay nada nuevo bajo el sol &#x0a;Ni escombros de un amor &#x0a;Que pueda recoger &#x0a;No tengo nada que esconder" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+                <Label Text="Algunos ya no saben que es amar &#x0a;Se portan bien cuando las tratan mal &#x0a;Se miran al espejo todo el tiempo para ver &#x0a;Las marcas que quedaron presas en su piel" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+                <Label Text="Lo intento todo para ser &#x0a;Mejor de lo que fui, de lo que fui hasta ayer &#x0a;No hay nada nuevo bajo el sol &#x0a;Ni escombros de un amor &#x0a;Que pueda recoger &#x0a;No tengo nada que esconder &#x0a;Oh-oh-oh &#x0a;No tengo nada que esconder" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+                <Label Text="Si fuera más de frente &#x0a;Un poco más valiente &#x0a;No bastaría con dejarlo todo así &#x0a;Rebobinar las horas &#x0a;No es lo que más me importa &#x0a;Yo sólo cuento con que estés aquí" 
+                       Padding="20"
+                       HorizontalOptions="Center"
+                       FontSize="15"/>
+            </StackLayout>
+        </ScrollView>
 
-            <ScrollView
-                x:Name="scrollView"
-                Grid.Row="0"
-                VerticalOptions="FillAndExpand"
-                Scrolled="OnScrollViewScrolled">
-                <StackLayout>
-                    <Label Text="FOR the most wild, yet most homely narrative which I am about to pen, I neither expect nor solicit belief. Mad indeed would I be to expect it, in a case where my very senses reject their own evidence. Yet, mad am I not -- and very surely do I not dream. But to-morrow I die, and to-day I would unburthen my soul. My immediate purpose is to place before the world, plainly, succinctly, and without comment, a series of mere household events. In their consequences, these events have terrified -- have tortured -- have destroyed me. Yet I will not attempt to expound them. To me, they have presented little but Horror -- to many they will seem less terrible than barroques. Hereafter, perhaps, some intellect may be found which will reduce my phantasm to the common-place -- some intellect more calm, more logical, and far less excitable than my own, which will perceive, in the circumstances I detail with awe, nothing more than an ordinary succession of very natural causes and effects." 
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           LineBreakMode="WordWrap"/>
-                    
-                </StackLayout>
-
-            </ScrollView>
-
-        </Grid>
-        
         <Button 
              AbsoluteLayout.LayoutBounds="1,1, -1, -1"
              AbsoluteLayout.LayoutFlags="PositionProportional"
